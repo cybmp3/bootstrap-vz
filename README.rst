@@ -7,13 +7,11 @@ bootstrap-vz
 针对Oracle云构建方法
 先在libvirt(也就是一般linux下面的virt-manager)或者virtualbox创建arrch64(arm64)架构的虚拟机，安装debian10-arm64版本(下载地址<https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-10.9.0-arm64-netinst.iso>)
 进入系统，克隆本项目
-apt install parted kpartx vim screen qemu-utils debootstrap python-pip python-yaml python-jsonschema python-termcolor
-pip install docopt json_minify requests fysom
+apt install parted kpartx vim screen qemu-utils debootstrap python-pip python-yaml python-jsonschema python-termcolor && pip install docopt json_minify requests fysom
 安装上面的依赖
 输入下面的指令开始构建
-`
 ./bootstrap-vz manifests/official/oracle/sid.yml
-`
+
 
 
 
