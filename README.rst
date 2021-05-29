@@ -9,7 +9,7 @@ bootstrap-vz
 进入系统，克隆本项目
 apt install parted kpartx vim screen qemu-utils debootstrap python-pip python-yaml python-jsonschema python-termcolor && pip install docopt json_minify requests fysom
 安装上面的依赖
-输入下面的指令开始构建
+输入下面的指令开始构建(记得开screen不然会等很久)
 ./bootstrap-vz manifests/official/oracle/sid.yml
 
 
