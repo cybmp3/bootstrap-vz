@@ -11,7 +11,9 @@ apt install parted kpartx vim screen qemu-utils debootstrap python-pip python-ya
 pip install docopt json_minify requests fysom
 安装上面的依赖
 输入下面的指令开始构建
-`./bootstrap-vz manifests/official/oracle/sid.yml`
+`
+./bootstrap-vz manifests/official/oracle/sid.yml
+`
 
 
 
